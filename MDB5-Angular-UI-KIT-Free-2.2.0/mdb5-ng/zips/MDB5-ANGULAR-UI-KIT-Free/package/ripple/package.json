@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/ripple",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-ripple.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-ripple.mjs",
+  "esm2020": "../esm2020/ripple/mdb-angular-ui-kit-ripple.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-ripple.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-ripple.mjs",
+  "typings": "mdb-angular-ui-kit-ripple.d.ts",
+  "sideEffects": false
+}

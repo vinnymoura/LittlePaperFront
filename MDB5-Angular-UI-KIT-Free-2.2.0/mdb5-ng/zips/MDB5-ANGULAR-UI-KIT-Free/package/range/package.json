@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/range",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-range.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-range.mjs",
+  "esm2020": "../esm2020/range/mdb-angular-ui-kit-range.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-range.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-range.mjs",
+  "typings": "mdb-angular-ui-kit-range.d.ts",
+  "sideEffects": false
+}

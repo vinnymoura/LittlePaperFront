@@ -1,0 +1,143 @@
+<div>
+	<div class="banner">
+		<swiper
+			[cssMode]="false"
+			[autoplay]="{
+				delay: 3500,
+				disableOnInteraction: false
+				}"
+			[navigation]="true"
+			[pagination]="true"
+			[keyboard]="true"
+			[loop]="true"
+			[loopFillGroupWithBlank]="true"
+			class="bannerInicial">
+			<ng-template swiperSlide>
+				<img src="../../../../assets/img/bannerLanding/Calca-jogger-bege-2.jpg" >
+			</ng-template>
+			<ng-template swiperSlide>
+				<img src="../../../../assets/img/bannerLanding/capa-2-848x474.jpg" >
+			</ng-template>
+			<ng-template swiperSlide>
+				<img src="../../../../assets/img/bannerLanding/Dicas-de-moda-para-o-ver-o-2021.jpg" >
+			</ng-template>
+			<ng-template swiperSlide>
+				<img src="../../../../assets/img/bannerLanding/Moletom-moda-masculina.jpg" >
+			</ng-template>
+			<ng-template swiperSlide>
+				<img src="../../../../assets/img/bannerLanding/vestido-valendo.jpg" >
+			</ng-template>
+		</swiper>
+	</div>
+
+	<div class="containerBody">
+		<div class="containerExposicao">
+			<div class="containerTextColection">
+				<h4>
+					Texto da coleção
+				</h4>
+				<p></p>
+			</div>
+			<swiper
+				[slidesPerView]="4"
+				[spaceBetween]="20"
+				[slidesPerGroup]="3"
+				[loop]="true"
+				[loopFillGroupWithBlank]="true"
+				class="swiperColecao">
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/11b-1.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/13-4.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/261568959688-tendencias-de-moda-header.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/3a-1.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/como-montar-looks-estilosos-com-roupas-simples-1.jpg">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/dondoca_com_br-moda-anos-90-pecas-retro-para-montar-looks-modernos-moda-anos-90-inspiracoes.jpg">
+					</ng-template>
+			</swiper>
+		</div>
+	
+		<div class="containerColecaoVerao">
+			<div class="containerTextColection">
+				<h4>
+					Texto da coleção
+				</h4>
+				<p></p>
+			</div>
+			<swiper
+				[slidesPerView]="4"
+				[spaceBetween]="20"
+				[slidesPerGroup]="3"
+				[loop]="true"
+				[loopFillGroupWithBlank]="true"
+				class="swiperColecaoVerao">
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/11b-1.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/13-4.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/261568959688-tendencias-de-moda-header.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/3a-1.png">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/como-montar-looks-estilosos-com-roupas-simples-1.jpg">
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/modelo/dondoca_com_br-moda-anos-90-pecas-retro-para-montar-looks-modernos-moda-anos-90-inspiracoes.jpg">
+					</ng-template>
+			</swiper>
+		</div>
+	
+		<div class="containerApresentacao">
+			<div class="swiperApesentacao">
+				<swiper
+					[grabCursor]="true"
+					[effect]="'creative'"
+					[creativeEffect]="{ prev: { shadow: true, translate: [0, 0, -400]},
+						next: { translate: ['100%', 0, 0]}}"
+					class="">
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/apresentacao/57965.webp" alt="">	
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/apresentacao/103a5a60f408fde85bbd57ee67953a82.jpg" alt="">	
+					</ng-template>
+					<ng-template swiperSlide>
+						<img src="../../../../assets/img/apresentacao/aplicativos-de-moda.jpg" alt="">	
+					</ng-template>
+				</swiper>
+			</div>
+	
+			<div class="textoApresentacao">
+				<h2>
+					Apresentação
+				</h2>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+					 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+					 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+			</div>
+	
+		</div>
+	</div>
+	
+
+	
+</div>

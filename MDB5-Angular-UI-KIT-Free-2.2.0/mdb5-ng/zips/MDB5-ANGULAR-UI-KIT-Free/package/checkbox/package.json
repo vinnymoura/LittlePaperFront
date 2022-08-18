@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/checkbox",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-checkbox.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-checkbox.mjs",
+  "esm2020": "../esm2020/checkbox/mdb-angular-ui-kit-checkbox.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-checkbox.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-checkbox.mjs",
+  "typings": "mdb-angular-ui-kit-checkbox.d.ts",
+  "sideEffects": false
+}

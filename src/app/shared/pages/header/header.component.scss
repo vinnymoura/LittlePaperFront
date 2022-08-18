@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    max-height: 60px;
+}
+
+.menuHeader{
+    font-size: 36px;
+}
+
+.cdk-overlay-connected-position-bounding-box{
+    top: 42px;
+    left: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+// Aqui css do menuHeader angular
+
+.example-menu {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 180px;
+    max-width: 280px;
+    background-color: rgba(255, 255, 255);
+    padding: 6px 0;
+  }
+  
+  .example-menu-item,
+  .example-standalone-trigger {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  
+    user-select: none;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .example-menu-item:hover {
+    background-color: rgb(208, 208, 208);
+  }
+  
+  .example-menu-item:active {
+    background-color: rgb(170, 170, 170);
+  }
+  
+  .example-standalone-item {
+    background-color: rgb(239, 239, 239);
+  }
+  .example-standalone-item:hover {
+    background-color: rgb(208, 208, 208);
+  }
+  .example-standalone-item[aria-expanded='true'] {
+    background-color: rgb(208, 208, 208);
+  }
+  
+  .logo p {
+    margin: 0;
+    }
+
+  .containerSearchAndCar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90px;
+  }
+
+  .header .logo{
+      max-height: 50px;
+  }
+
+  

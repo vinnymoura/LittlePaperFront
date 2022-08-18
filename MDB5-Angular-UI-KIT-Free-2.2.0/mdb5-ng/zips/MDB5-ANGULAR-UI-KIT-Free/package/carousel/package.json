@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/carousel",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-carousel.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-carousel.mjs",
+  "esm2020": "../esm2020/carousel/mdb-angular-ui-kit-carousel.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-carousel.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-carousel.mjs",
+  "typings": "mdb-angular-ui-kit-carousel.d.ts",
+  "sideEffects": false
+}

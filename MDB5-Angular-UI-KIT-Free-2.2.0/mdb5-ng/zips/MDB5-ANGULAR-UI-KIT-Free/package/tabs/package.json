@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/tabs",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-tabs.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-tabs.mjs",
+  "esm2020": "../esm2020/tabs/mdb-angular-ui-kit-tabs.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-tabs.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-tabs.mjs",
+  "typings": "mdb-angular-ui-kit-tabs.d.ts",
+  "sideEffects": false
+}

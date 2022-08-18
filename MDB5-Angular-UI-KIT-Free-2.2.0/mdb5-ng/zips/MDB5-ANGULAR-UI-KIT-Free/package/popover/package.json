@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/popover",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-popover.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-popover.mjs",
+  "esm2020": "../esm2020/popover/mdb-angular-ui-kit-popover.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-popover.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-popover.mjs",
+  "typings": "mdb-angular-ui-kit-popover.d.ts",
+  "sideEffects": false
+}

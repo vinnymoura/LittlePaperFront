@@ -1,0 +1,45 @@
+.footer {
+    bottom: 0;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.footerInfos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerFooter{
+    margin: 15px 100px 0 100px;
+}
+
+.containerLogo  {
+    width: 10%;
+}
+
+.containerLogo img{
+    width: 50%;
+}
+
+.containerRedes{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-left: 155px;
+}
+
+.containerRedes p {
+    margin-right: 15px;
+}
+.copntainerEndereco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 15px 100px;
+}
+
+.linha1{
+    width: 100%;
+}

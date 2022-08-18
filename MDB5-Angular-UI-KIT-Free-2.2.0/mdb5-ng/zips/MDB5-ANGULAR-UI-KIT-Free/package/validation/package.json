@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/validation",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-validation.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-validation.mjs",
+  "esm2020": "../esm2020/validation/mdb-angular-ui-kit-validation.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-validation.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-validation.mjs",
+  "typings": "mdb-angular-ui-kit-validation.d.ts",
+  "sideEffects": false
+}

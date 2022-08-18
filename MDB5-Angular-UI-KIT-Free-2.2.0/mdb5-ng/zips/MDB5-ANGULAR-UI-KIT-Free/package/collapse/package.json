@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/collapse",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-collapse.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-collapse.mjs",
+  "esm2020": "../esm2020/collapse/mdb-angular-ui-kit-collapse.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-collapse.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-collapse.mjs",
+  "typings": "mdb-angular-ui-kit-collapse.d.ts",
+  "sideEffects": false
+}

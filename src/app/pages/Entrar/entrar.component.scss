@@ -1,0 +1,97 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  h2{
+    margin: 0 !important;
+  }
+  .containerBodyLogin{
+    background-color: #282828;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.containerForm{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.linhaVertical{
+    margin: 0 3rem;
+    height: 100%;
+}
+
+.containerFormLogin, .containerFormCadastro{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+  .mat-form-field-wrapper{
+    padding: 0;
+  }
+
+  .linha1{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+  }
+
+  .containerForm input{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 2px solid rebeccapurple;
+    padding-left: 10px;
+    font-size: .9rem;    
+  }
+
+  .containerForm button{
+    height: 2.5rem;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+    width: 105%;
+    margin-top: .4rem;
+    font-size: .7rem;
+    text-transform: uppercase;
+  }
+
+  .mat-form-field{
+    display: block !important;
+  }
+
+  .containerFormladoEsquerdo .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+ 
+  .tittleLoginCadastro{
+    color: white;
+    text-align: center;
+  }
+
+  input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+.inputPassword{
+    position: absolute;
+}
+.iconHide{
+    position: relative;
+    color: rebeccapurple;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    left: 19vw;
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: space-evenly;
+}

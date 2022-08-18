@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/tooltip",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-tooltip.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-tooltip.mjs",
+  "esm2020": "../esm2020/tooltip/mdb-angular-ui-kit-tooltip.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-tooltip.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-tooltip.mjs",
+  "typings": "mdb-angular-ui-kit-tooltip.d.ts",
+  "sideEffects": false
+}

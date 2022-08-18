@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/forms",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-forms.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-forms.mjs",
+  "esm2020": "../esm2020/forms/mdb-angular-ui-kit-forms.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-forms.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-forms.mjs",
+  "typings": "mdb-angular-ui-kit-forms.d.ts",
+  "sideEffects": false
+}

@@ -1,0 +1,38 @@
+import { BooleanInput } from '@angular/cdk/coercion';
+import { ElementRef, Renderer2 } from '@angular/core';
+import * as i0 from "@angular/core";
+export declare class MdbRippleDirective {
+    private _elementRef;
+    private _renderer;
+    get rippleCentered(): boolean;
+    set rippleCentered(value: boolean);
+    private _rippleCentered;
+    rippleColor: string;
+    rippleDuration: string;
+    rippleRadius: number;
+    get rippleUnbound(): boolean;
+    set rippleUnbound(value: boolean);
+    private _rippleUnbound;
+    constructor(_elementRef: ElementRef, _renderer: Renderer2);
+    get host(): HTMLElement;
+    ripple: boolean;
+    _createRipple(event: any): void;
+    private _createHTMLRipple;
+    private _removeHTMLRipple;
+    private _durationToMsNumber;
+    _getDiameter({ offsetX, offsetY, height, width }: {
+        offsetX: any;
+        offsetY: any;
+        height: any;
+        width: any;
+    }): number;
+    _appendRipple(target: HTMLElement, parent: HTMLElement): void;
+    _toggleUnbound(target: HTMLElement): void;
+    _addColor(target: HTMLElement, parent: HTMLElement): void;
+    _removeOldColorClasses(target: HTMLElement): void;
+    _colorToRGB(color: any): number[];
+    static ngAcceptInputType_rippleCentered: BooleanInput;
+    static ngAcceptInputType_rippleUnbound: BooleanInput;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MdbRippleDirective, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<MdbRippleDirective, "[mdbRipple]", ["mdbRipple"], { "rippleCentered": "rippleCentered"; "rippleColor": "rippleColor"; "rippleDuration": "rippleDuration"; "rippleRadius": "rippleRadius"; "rippleUnbound": "rippleUnbound"; }, {}, never>;
+}

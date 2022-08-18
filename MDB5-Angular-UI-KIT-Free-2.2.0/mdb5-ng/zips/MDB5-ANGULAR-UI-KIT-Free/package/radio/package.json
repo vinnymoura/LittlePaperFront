@@ -1,0 +1,11 @@
+{
+  "name": "mdb-angular-ui-kit/radio",
+  "private": true,
+  "module": "../fesm2015/mdb-angular-ui-kit-radio.mjs",
+  "es2020": "../fesm2020/mdb-angular-ui-kit-radio.mjs",
+  "esm2020": "../esm2020/radio/mdb-angular-ui-kit-radio.mjs",
+  "fesm2020": "../fesm2020/mdb-angular-ui-kit-radio.mjs",
+  "fesm2015": "../fesm2015/mdb-angular-ui-kit-radio.mjs",
+  "typings": "mdb-angular-ui-kit-radio.d.ts",
+  "sideEffects": false
+}

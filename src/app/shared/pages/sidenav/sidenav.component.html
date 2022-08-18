@@ -1,0 +1,41 @@
+<mat-drawer-container class="example-container" autosize 
+ [@onSideNavChange]="sideNavState ? 
+'open' : 'close'" style="height: 100%;">
+  <div fxLayout="column" fxLayoutGap="10px">
+    <div class="user_menu" (click)="toggleShow()">
+      <mat-nav-list>
+        <a mat-list-item>
+          <img class="fotoDoPerfil" 
+            src="../../../../assets/img/ricky-Recuperado2.png" 
+            alt="fodo Perfil">
+            <span [@animateText]="linkText? 'show' : 'hide'">Olá Vinicius</span>
+          <span [@animateText]="linkText? 'show' : 'hide'"></span>
+        </a>
+      </mat-nav-list>
+    </div>
+
+    <div *ngIf="isShown" id="divshow" class="classContainerButtons">
+      <hr class="linha1">
+      <div class="containerButtonsLogin" >
+        <button class="mat-raised-button btnLogar" (click)="btnLogin()" >Entrar</button>
+      </div>
+    </div>
+
+    <div>
+      <mat-nav-list>
+        <a mat-list-item *ngFor="let page of pages">
+          <span [@animateText]="linkText ? 'show' : 'hide'">{{ page?.name }} </span>
+        </a>
+      </mat-nav-list>
+    </div>
+  </div>
+
+  <span class="spacer"></span>
+  <div fxLayout="row" fxLayoutAlign="end center" style="padding: 0px 10px;">
+    <button mat-icon-button (click)="onSinenavToggle()">
+      <mat-icon *ngIf="sideNavState">arrow_left</mat-icon>
+      <mat-icon *ngIf="!sideNavState">arrow_right</mat-icon>
+    </button>
+  </div>
+</mat-drawer-container>
+ 

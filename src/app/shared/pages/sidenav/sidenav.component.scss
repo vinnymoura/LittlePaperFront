@@ -1,0 +1,35 @@
+.sidenav_container {
+ width: 50px; 
+  height: 100%;
+}
+
+.fotoDoPerfil {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.containerButtonsLogin{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classContainerButtons{
+  background: #7c7c7cbd;
+    border-radius: 0.3rem 0.3rem 0.7rem 0.7rem;
+    padding: 0 0 1rem 0;
+}
+
+.btnLogar, .btnCadastrar{
+  width: 10rem;
+  margin-top: 0.4rem;
+  border-radius: .3rem;
+  border: 1px solid yellow;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

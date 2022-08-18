@@ -1,0 +1,89 @@
+<div class="containerBodyLogin">
+    <div class="containerForm">
+        <div class="containerFormLogin">
+            <h2 class="tittleLoginCadastro">Já tenho cadastro</h2>
+            <div class="teste">
+                <div>
+                    <mat-form-field appearance="outline">
+                    <mat-label>E-mail</mat-label>
+                    <input matInput placeholder="E-mail" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                    <mat-label>Senha</mat-label>
+                    <div>
+                        <input class="inputPassword" matInput placeholder="Senha" [type]="hide ? 'password' : 'text'">
+                        <label class="iconHide" mat-mini-fab  (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </label>
+                    </div>
+                    </mat-form-field>
+                </div>
+                <button class="buttonEntrar" mat-flat-button>Entrar</button>
+                <hr class="linha1">
+                <button class="buttonEntrar" mat-flat-button >Entrar com Google</button>
+                <button class="buttonEntrar" mat-flat-button >Entrar com Facebook</button>           
+            </div>
+        </div>
+
+        <hr class="linhaVertical">
+        <div class="teste">
+            <div class="containerFormCadastro">
+                <h2 class="tittleLoginCadastro">Quero me cadastrar</h2>
+                <div>
+                    <mat-form-field appearance="outline">
+                    <mat-label>E-mail</mat-label>
+                    <input matInput placeholder="E-mail" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <div >
+                    <mat-form-field appearance="outline">
+                    <mat-label>Confirmar E-mail</mat-label>
+                    <input matInput placeholder="Confirmar E-mail" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Senha</mat-label>
+                        <div>
+                            <input class="inputPassword" matInput placeholder="Senha" [type]="hide ? 'password' : 'text'" >
+                            <label class="iconHide" mat-mini-fab  (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </label>
+                        </div>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Confirmar Senha</mat-label>
+                        <div>
+                            <input class="inputPassword" matInput placeholder="Confirmar Senha" [type]="hide ? 'password' : 'text'" >
+                            <label class="iconHide" mat-mini-fab  (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </label>
+                        </div>
+                    </mat-form-field>
+                </div>
+                <div >
+                    <mat-form-field appearance="outline">
+                    <mat-label>CPF ou CNPJ</mat-label>
+                    <input matInput placeholder="CPF ou CNPJ" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline">
+                    <mat-label>CEP</mat-label>
+                    <input matInput placeholder="CEP" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+                </div>
+                <button mat-flat-button>Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
